@@ -1,0 +1,59 @@
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 22px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.banner {
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  margin: auto;
+  width: 1440px;
+}
+
+.grid {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  height: 70%;
+  border-radius: 22px;
+}
+
+.heading {
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image {
+  width: 91%;
+  height: 60%;
+  padding-top: 18px;
+}
+
+.text {
+  padding: 0 19px 25px 19px;
+}
